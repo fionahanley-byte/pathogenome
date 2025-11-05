@@ -1,0 +1,30 @@
+---
+title: "Index"
+author: "Fiona Hanley"
+format:
+  html:
+    toc: true
+    toc_float: true
+    embed-resources: true
+    theme: cerulean
+execute: 
+  warning: false
+  message: false
+---
+
+```{r}
+library(usethis)
+use_git_config(user.name = "Fiona Hanley", user.email = "fionahanley@umass.edu")
+```
+
+```{r}
+usethis::create_github_token()
+```
+
+# About Me
+
+My name is Fiona Hanley, and I am a junior in bio at UMass. I am aiming to enter the business side of biotechnology.
+
+[Lab 6](lab6.html)
+
+[![Me!](images/IMG_4279.jpg)](https://quarto.org)
